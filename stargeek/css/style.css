@@ -1,0 +1,138 @@
+.login{
+    background-color: rgb(13, 160, 186);
+}
+.pagina{
+    text-align: center;
+}
+.cadastro2{
+    text-align: center;
+    margin: 0%;
+}
+.imgcadastro{
+    height: 70px;
+}
+.alinhar{
+    text-align: center;
+}
+.principal1{
+    height: 40px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.cabecalho{
+    background-color: rgb(13, 160, 186);
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 0px 15px black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-cabecalho{
+    width: 80px;
+    margin-right: 30px;
+}
+
+.botao-cabecalho{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+.botao-cabecalho:hover{
+    color: rgb(9, 113, 3);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.botao-encontre-uma-loja{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.botao-encontre-uma-loja:hover{
+    color: rgb(9, 113, 3);
+}
+
+.botao-entrar{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.botao-entrar:hover{
+    background-color: black;
+    color: white;
+}
+
+.botao-participe-agora{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.botao-participe-agora:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.cabecalho2{
+    display: flex;
+    align-items: center;
+}
+.principal2{
+    background-color: rgb(11, 63, 88);
+}
+.sabores{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-sabor{
+    border-radius: 8px;
+    margin: 10px;
+    width: 250px;
+}
+.img-filmes{
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px black;
+}
+.p-filmes{
+    text-align: center;
+    color: white;
+}
+.filmes{
+    justify-content:space-around;
+    display: flex;
+ overflow-x: scroll;
+}
+.filmes2{
+    justify-content:space-around;
+    display: flex;
+ overflow-x: scroll;
+}
+.fundo{
+    background-color: rgb(13, 160, 186);
+}
+
