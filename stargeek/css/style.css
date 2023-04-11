@@ -1,21 +1,29 @@
+
+
 .login{
-    background-color: rgb(13, 160, 186);
+    background-image: url(../img/fundo2.jpg);
 }
+
+.h2-login{
+    color: white;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
 .pagina{
     text-align: center;
 }
 .cadastro2{
     text-align: center;
-    margin: 0%;
+    margin: 6%;
 }
 .imgcadastro{
-    height: 70px;
+    height: 50px;
 }
 .alinhar{
     text-align: center;
 }
 .principal1{
-    height: 40px;
+    height: 45px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;700&display=swap');
 
@@ -112,6 +120,13 @@
     margin: 10px;
     width: 250px;
 }
+.img-sabor:hover{
+    border-radius: 8px;
+    margin: 10px;
+    width: 300px;
+    transition: 500ms;
+    border: solid rgb(255, 0, 0) 10px;
+}
 .img-filmes{
     background-color: rgb(0, 0, 0);
     border-radius: 8px;
@@ -122,17 +137,86 @@
     text-align: center;
     color: white;
 }
+.filmes::-webkit-scrollbar{
+    display: none;
+}
 .filmes{
     justify-content:space-around;
     display: flex;
- overflow-x: scroll;
-}
-.filmes2{
-    justify-content:space-around;
-    display: flex;
- overflow-x: scroll;
-}
-.fundo{
-    background-color: rgb(13, 160, 186);
+    overflow-x: scroll;
+    padding-left: 800px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
+.fundo{
+    background-image: url(../img/fundo2.jpg);
+}
+.index1{
+    width: 150px;
+}
+.index2{
+    text-align: center;
+}
+.imgindex{
+    width: 350px;
+}
+.index{
+    background-color: rgb(13, 160, 186);
+}
+.texto1{
+    text-align: left;
+    font-size: 25px;
+    margin: auto;
+    padding: 20px;
+}
+.img-index2{
+    width:500px ;
+    border-radius: 10px;
+    border: solid rgb(104, 123, 126);
+}
+.img-index{
+    display: flex;
+    margin: 70px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color:rgba(157, 121, 121, 0.382) ;
+    color: rgb(0, 0, 0);
+    border: solid black;
+}
+input{
+    width: 300px;
+    height: 35px;
+    border-radius: 50px;
+}
+.botao{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+.botao:hover{
+    background: rgb(0,1,255);
+    background: linear-gradient(0deg, rgba(0,1,255,1) 0%, rgba(0,14,255,0.03974089635854339) 51%, rgba(3,0,255,1) 100%);
+    color: rgb(255, 255, 255);
+}
+
+.cris{
+    text-align: end;
+}
+
+#password{
+    padding-left: 10px;
+}
+
+#username{
+    padding-left: 10px;
+}
+
+.ffj{
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
