@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+body{
+    background-color: aqua;
+}

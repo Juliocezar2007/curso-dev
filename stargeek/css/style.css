@@ -15,6 +15,7 @@
 .cadastro2{
     text-align: center;
     margin: 6%;
+    color: white;
 }
 .imgcadastro{
     height: 50px;
@@ -111,27 +112,20 @@
 .principal2{
     background-color: rgb(11, 63, 88);
 }
-.sabores{
-    display: flex;
-    flex-wrap: wrap;
+
+.img-sabor:hover{
+    width: 500px;
+    height: 300px;
+    transition: 500ms;
+
 }
 .img-sabor{
+    background-color: rgb(234, 233, 233);
     border-radius: 8px;
-    margin: 10px;
-    width: 250px;
-}
-.img-sabor:hover{
-    border-radius: 8px;
-    margin: 10px;
-    width: 300px;
-    transition: 500ms;
-    border: solid rgb(255, 0, 0) 10px;
-}
-.img-filmes{
-    background-color: rgb(0, 0, 0);
-    border-radius: 8px;
-    margin: 10px;
     box-shadow: 0px 0px 15px black;
+    width: 250px;
+    height: 230px;
+    margin: 20px;
 }
 .p-filmes{
     text-align: center;
@@ -141,12 +135,9 @@
     display: none;
 }
 .filmes{
-    justify-content:space-around;
+    justify-content:space-between;
     display: flex;
     overflow-x: scroll;
-    padding-left: 800px;
-    margin-left: 20px;
-    cursor: pointer;
 }
 
 .fundo{
@@ -156,10 +147,13 @@
     width: 150px;
 }
 .index2{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .imgindex{
     width: 350px;
+    display: flex;
 }
 .index{
     background-color: rgb(13, 160, 186);
@@ -177,6 +171,7 @@
 }
 .img-index{
     display: flex;
+    justify-content: space-between;
     margin: 70px;
     padding: 30px;
     border-radius: 10px;
@@ -219,4 +214,49 @@ input{
 .ffj{
     color: white;
     text-shadow: 0px 0px 10px black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+@media (max-width: 600px)
+{
+    .img-index{
+       flex-wrap: wrap;
+       flex-direction: column;
+    }
+    .img-index2{
+        width: 80%;
+        min-width: 50%;
+    }
+    .cabecalho{
+        flex-direction: column;
+    }
+    .menu{
+        flex-wrap: wrap;
+    }
+    .cabecalho2{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 487px)
+{
+    .filmes{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 487px)
+{
+    .pagina{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 487px)
+{.login{
+    flex-wrap: wrap;
+}
 }

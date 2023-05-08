@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex003.HTML</title>
+</head>
+<body>
+    <h1>Somador de numeros</h1>
+    <button onclick="Botaosomar()">calcular</button>
+    <br>
+    <p>Clique no botao acima para somar</p>
+
+    <script>
+        function Botaosomar() {
+            var valor1 =prompt("informe o valor 1")
+            var valor2 =prompt("informe o valor 2")
+            var soma = Number(valor1) + Number(valor2)
+            console.log(`resultado ${soma}`)
+        }
+    </script>
+
+</body>
+</html>
